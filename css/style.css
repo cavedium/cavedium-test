@@ -325,34 +325,40 @@ h2 {
 
 /* 992px - 1200px */
 @media screen and (max-width: 1200px) {
-	.container{
+	.wrapper {
 		width: 960px;
 	}
 }
 
 /* 768px - 992px */
 @media screen and (max-width: 992px) {
-	.container{
+	.wrapper {
 		width: 720px;
 	}
-	.between{
+
+	.header {
 		flex-direction: column;
 	}
-	.offer{
+
+	.nav-menu {
 		width: 100%;
 	}
-	.paragraph{
-			width: auto;
+
+	.nav-menu-item {
+		width: auto;
 	}
-	.travel{
+
+	.hero-img {
 		display: block;
 		width: 549px;
 		margin: 72px auto 0;
 	}
-	.whats{
+
+	.about-me-list {
 		flex-direction: column;
 	}
-	.what{
+
+	.about-me-item {
 		width: auto;
 		margin-bottom: 30px;
 	}
@@ -360,16 +366,19 @@ h2 {
 
 /* 576px - 768px */
 @media screen and (max-width: 768px) {
-	.container{
+	.wrapper {
 		width: 540px;
 	}
-	.travel{
+
+	.hero-img {
 		width: 100%;
 	}
-	.enter input{
+
+	.footer input {
 		width: 100%;
 	}
-	.enter-btn{
+
+	.footer-btn {
 		margin-left: 0;
 		margin-top: 15px;
 		width: 100%;
@@ -378,7 +387,7 @@ h2 {
 
 /* 0px - 576px */
 @media screen and (max-width: 576px) {
-	.container{
+	.wrapper {
 		width: 90%;
 	}
 }
