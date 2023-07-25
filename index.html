@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 	<title>Free Landing Page Template</title>
 	<link rel="stylesheet"
 		href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
@@ -14,28 +14,30 @@
 
 <body>
 	<!-- Шапка сайта -->
-	<header class="header wrapper">
-		<nav class="header-nav">
-			<ul class="nav-menu list">
-				<li class="nav-menu-item">
-					<a href="#" class="nav-menu-link link">Home</a>
-				</li>
-				<li class="nav-menu-item">
-					<a href="#" class="nav-menu-link link">About me</a>
-				</li>
-				<li class="nav-menu-item">
-					<a href="#" class="nav-menu-link link">Skills</a>
-				</li>
-				<li class="nav-menu-item">
-					<a href="#" class="nav-menu-link link">Portfolio</a>
-				</li>
-				<li class="nav-menu-item">
-					<a href="#" class="nav-menu-link link">Contacts</a>
-				</li>
-			</ul>
-		</nav>
+	<header class="header">
+		<div class="wrapper">
+			<nav class="header-nav">
+				<ul class="nav-menu list">
+					<li class="nav-menu-item">
+						<a href="#" class="nav-menu-link link">Home</a>
+					</li>
+					<li class="nav-menu-item">
+						<a href="#" class="nav-menu-link link">About me</a>
+					</li>
+					<li class="nav-menu-item">
+						<a href="#" class="nav-menu-link link">Skills</a>
+					</li>
+					<li class="nav-menu-item">
+						<a href="#" class="nav-menu-link link">Portfolio</a>
+					</li>
+					<li class="nav-menu-item">
+						<a href="#" class="nav-menu-link link">Contacts</a>
+					</li>
+				</ul>
+				<!-- <hr class="line"> -->
+			</nav>
+		</div>
 	</header>
-	<hr class="line">
 	<!-- Основная часть сайта -->
 	<main>
 		<!-- Hero -->
@@ -43,14 +45,14 @@
 			<div class="wrapper">
 				<ul class=" hero-menu list">
 					<li class="hero-menu-item">
-						<h1 class="hero-title">Denis Novik</h1>
+						<h1 class="hero-title">Denis<br> Novik</h1>
 					</li>
 					<li class="hero-menu-item">
 						<p class="hero-text">UX | UI designer <br>24 years old, Minsk</p>
 					</li>
-					<!-- 					<li class="hero-menu-item">
-						<p class="hero-lang">RU <span style="color: #070707;">| ENG</span></p>
-					</li> -->
+					<li class="hero-menu-item">
+						<p class="hero-lang">RU <span style="color: #070707; padding: 0;">| ENG</span></p>
+					</li>
 				</ul>
 				<img class="hero-img" src="./img/hero.jpg" alt="Бородатый мужчина держащий кепку" width="943"
 					height="387" />
@@ -66,7 +68,7 @@
 						and
 						everything connected with
 						it.</li>
-					<li class="about-me-item">I'm studying at courses "Web and mobile design interfaces" in IT-Academy.
+					<li class="about-me-item">I'm studying at courses "Web and mobile design <br>interfaces" in IT-Academy.
 					</li>
 					<li class="about-me-item">Ready to implement excellent projects <br>with wonderful people.</li>
 				</ul>
