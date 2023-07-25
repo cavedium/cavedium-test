@@ -1,3 +1,8 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
 :root {
 	--main-font: 'Open Sans', sans-serif;
 	--first-color: #070707;
@@ -11,8 +16,8 @@ body {
 }
 
 .wrapper {
-	width: 941px;
-	margin: 0 auto;
+	max-width: 941px;
+	margin: 0px auto;
 }
 
 .list {
@@ -37,14 +42,15 @@ h2 {
 	background-color: var(--first-section-color);
 }
 
-.header-nav {
-	width: 941px;
+.header-nav{
+	border-bottom: 2px solid var(--second-color);
 }
 
 .nav-menu {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 	padding: 30px 0;
-	padding-left: 0;
-	margin-left: 0;
 }
 
 .nav-menu-item {
@@ -53,30 +59,17 @@ h2 {
 
 .nav-menu-link {
 	display: block;
-	font-family: var(--main-font);
 	font-weight: 700;
 	font-size: 18px;
 	line-height: 22px;
 	color: var(--second-color);
 	text-shadow: 0px 4px 4px;
-	margin-right: 157px;
 }
 
 .nav-menu-link:hover {
-	font-family: var(--main-font);
-	font-weight: 700;
-	font-size: 18px;
-	line-height: 22px;
 	color: var(--first-color);
 	text-shadow: none;
-
-}
-
-.line {
-	width: 941px;
-	border: 1px solid var(--second-color);
-	background-color: var(--second-color);
-	transform: matrix(1, 0, 0, 1, 0, 0);
+	transition: 300ms;
 }
 
 /* HERO */
@@ -85,32 +78,31 @@ h2 {
 }
 
 .hero-menu {
+	display: flex;
+	align-items: end;
+	justify-content: space-between;
 	padding-left: 0;
-	margin: 0;
+	margin-top: 40px;
 }
 
 .hero-menu-item {
-	display: inline-block;
+	display: flex;
+	align-items: end;
 }
 
 .hero-title {
-	font-family: var(--main-font);
 	font-weight: 700;
 	font-size: 47.3392px;
 	line-height: 59px;
 	color: var(--first-color);
-	width: 123px;
-	margin-right: 298px;
 }
 
 .hero-text {
-	font-family: var(--main-font);
 	font-weight: 500;
 	font-size: 18px;
 	line-height: 22px;
 	color: var(--first-color);
-	width: 170px;
-	margin-right: 250px;
+	padding-right: 55px;
 }
 
 .hero-lang {
@@ -119,11 +111,12 @@ h2 {
 	font-size: 16px;
 	line-height: 20px;
 	color: var(--second-color);
-	padding-left: 54px;
+	padding-top: 60px;
 	transform: rotate(-90deg);
 }
 
 .hero-img {
+	margin-top: 50px;
 	margin-bottom: 104px;
 }
 
@@ -147,9 +140,7 @@ h2 {
 	font-size: 18px;
 	line-height: 22px;
 	text-align: center;
-	width: 490px;
 	margin-bottom: 50px;
-	margin-left: 180px;
 }
 
 /* SKILLS */
@@ -288,10 +279,7 @@ h2 {
 	text-align: center;
 	background-color: var(--first-color);
 	color: var(--first-section-color);
-	padding-top: 13px;
-	padding-bottom: 13px;
-	padding-left: 29.08px;
-	padding-right: 29.08px;
+	padding: 13px 30px;
 	border-radius: 50px;
 	width: 180px;
 	height: 42px;
@@ -299,14 +287,15 @@ h2 {
 }
 
 .footer-list {
-	display: block;
-	margin-top: 99px;
-	margin-left: 250px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 60px;
+	margin-top: 100px;	
 }
 
 .footer-item {
 	display: inline-block;
-	margin-right: 61px;
 }
 
 .footer-info {
