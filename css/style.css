@@ -17,7 +17,8 @@ body {
 
 .wrapper {
 	max-width: 977px;
-	margin: 0px auto;
+	margin: 0 auto;
+	padding: 0 15px;
 }
 
 .list {
@@ -388,7 +389,7 @@ h2 {
 		flex: 0 0 30px;
 		height: 30px;
 		position: relative;
-		margin: 45px 30px 0px 0px;
+		margin: 45px 30px 0 0;
 	}
 	.close-icon-menu::before,
 	.close-icon-menu::after {
@@ -416,7 +417,7 @@ h2 {
 		height: 100%;
 		overflow: auto;
 		background-color: #FFFFFF;
-		padding: 30px 0px 0px 26px;
+		padding: 30px 0 0 26px;
 		transition: left 0.3s ease 0s;
 	}
 	.nav-menu {
