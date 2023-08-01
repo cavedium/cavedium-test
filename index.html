@@ -14,8 +14,8 @@
 
 <body>
 	<!-- Шапка сайта -->
-	<header class="header">
-		<div class="wrapper">
+	<header id="open" class="header">
+		<div id="close" class="wrapper">
 			<nav class="header-nav">
 				<ul class="nav-menu list">
 					<li class="nav-menu-item">
@@ -34,8 +34,11 @@
 						<a href="#" class="nav-menu-link link">Contacts</a>
 					</li>
 				</ul>
-				<!-- <hr class="line"> -->
 			</nav>
+			<div class="header-menu">
+				<a href="#open" class="icon-menu"><span></span></a>
+				<a href="#close" class="close-icon-menu"></a>
+			</div>
 		</div>
 	</header>
 	<!-- Основная часть сайта -->
@@ -54,8 +57,10 @@
 						<p class="hero-lang">RU <span style="color: #070707; padding: 0;">| ENG</span></p>
 					</li>
 				</ul>
-				<img class="hero-img" src="./img/hero.jpg" alt="Бородатый мужчина держащий кепку" width="943"
-					height="387" />
+				<img class="hero-img-1" src="./img/hero.jpg" alt="Бородатый мужчина держащий кепку" width="977px"
+					height="387px" />
+				<img class="hero-img-2" src="./img/mob-hero.jpg" alt="Бородатый мужчина держащий кепку" width="317px"
+					height="478">
 			</div>
 		</section>
 
@@ -68,7 +73,8 @@
 						and
 						everything connected with
 						it.</li>
-					<li class="about-me-item">I'm studying at courses "Web and mobile design <br>interfaces" in IT-Academy.
+					<li class="about-me-item">I'm studying at courses "Web and mobile design <br>interfaces" in
+						IT-Academy.
 					</li>
 					<li class="about-me-item">Ready to implement excellent projects <br>with wonderful people.</li>
 				</ul>
@@ -179,17 +185,17 @@
 				<ul class="portfolio-list list">
 					<li class="portfolio-item">
 						<img class="portfolio-img" src="./img/online-fashion-store.jpg" alt="Картинка первого сайта"
-							width="938" height="522">
+							width="977" height="522">
 						<p class="portfolio-item-text">Online fashion store - Homepage</p>
 					</li>
 					<li class="portfolio-item">
-						<img class="portfolio-img" src="./img/reebok-store.jpg" alt="Картинка второго сайта" width="938"
+						<img class="portfolio-img" src="./img/reebok-store.jpg" alt="Картинка второго сайта" width="977"
 							height="522">
 						<p class="portfolio-item-text">Reebok Store - Concept</p>
 					</li>
 					<li class="portfolio-item">
 						<img class="portfolio-img" src="./img/braun-landing-page.jpg" alt="Картинка третьего сайта"
-							width="938" height="522">
+							width="977" height="522">
 						<p class="portfolio-item-text blpc">Braun Landing Page - Concept</p>
 					</li>
 				</ul>
