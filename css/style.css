@@ -362,7 +362,7 @@ h2 {
 /* MOBILE */
 @media (max-width: 677.98px) {
 	.wrapper{
-		max-width: 320px;
+		max-width: 350px;
 	}
 
 	.icon-menu {
